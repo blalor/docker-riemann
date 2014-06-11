@@ -1,0 +1,2 @@
+/etc/riemann IN_CREATE,IN_DELETE,IN_MODIFY,IN_MOVE,IN_ONLYDIR,IN_NO_LOOP /opt/riemann/bin/reload.sh
+/etc/riemann/conf.d IN_CREATE,IN_DELETE,IN_MODIFY,IN_MOVE,IN_ONLYDIR,IN_NO_LOOP /opt/riemann/bin/reload.sh
