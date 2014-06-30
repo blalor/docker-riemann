@@ -5,8 +5,7 @@ set -e -x -u
 cd /tmp/src
 
 ## incron to watch for changed riemann config
-## java because … well … riemann
-yum install -y incron java-1.7.0-openjdk bzip2
+yum install -y incron bzip2
 
 ## install riemann
 mkdir /opt/riemann

@@ -1,4 +1,4 @@
-FROM blalor/supervised:latest
+FROM blalor/java:latest
 MAINTAINER Brian Lalor <blalor@bravo5.org>
 
 ## 5555 - Riemann TCP and UDP
