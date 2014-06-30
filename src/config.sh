@@ -4,8 +4,11 @@ set -e -x -u
 
 cd /tmp/src
 
+yum localinstall -y http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
+
 ## incron to watch for changed riemann config
-yum install -y incron bzip2
+## nginx for HTTP proxying
+yum install -y incron bzip2 nginx
 
 ## install riemann
 mkdir /opt/riemann
