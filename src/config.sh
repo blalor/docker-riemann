@@ -12,7 +12,7 @@ yum install -y incron bzip2 nginx
 
 ## install riemann
 mkdir /opt/riemann
-curl http://aphyr.com/riemann/riemann-0.2.5.tar.bz2 | tar -xjf - --strip-components=1 -C /opt/riemann/
+curl http://aphyr.com/riemann/riemann-0.2.6.tar.bz2 | tar -xjf - --strip-components=1 -C /opt/riemann/
 
 ## copy files
 tar -c -C skel -f - . | tar -xf - -C /
